@@ -1,0 +1,15 @@
+.portfolio {
+    display: flex; /* Use flexbox for alignment */
+    flex-wrap: wrap; /* Allow wrapping of items */
+    justify-content: center; /* Center items horizontally */
+    gap: 20px; /* Space between images */
+}
+
+.portfolio img {
+    width: 200px; /* Set a fixed width */
+    height: 150px; /* Set a fixed height */
+    object-fit: cover; /* Ensures the image covers the area */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
